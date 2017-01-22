@@ -1,0 +1,180 @@
+2016-10-27 16:02:26 [INFO] NettyChannelHandler channelDisconnected: remote=admin-PC/192.168.0.41:61958 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:02:26 [INFO] NettyChannelHandler channelDisconnected: remote=/192.168.0.41:61941 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:02:26 [INFO] NettyChannelHandler channelDisconnected: remote=/192.168.0.41:61953 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:02:26 [INFO] NettyChannelHandler channelDisconnected: remote=admin-PC/192.168.0.41:61948 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:07:34 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62008 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:07:34 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62015 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:07:34 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62022 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:07:34 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62027 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:08:40 [INFO] AllSpiInitialization init.
+2016-10-27 16:08:40 [INFO] AllSpiInitialization init finish.
+2016-10-27 16:08:41 [INFO] init compress codec
+2016-10-27 16:08:41 [INFO] add method sign:getb93e9a3e658b1, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=getbyid, paramtersDesc=int, version=1.0]
+2016-10-27 16:08:41 [INFO] add method sign:selee750ce0d0aa8, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=selectBypage, paramtersDesc=com.student.room.service.table.model.UserInfo,int,int, version=1.0]
+2016-10-27 16:08:41 [INFO] RequestRouter addProvider: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc all_public_method_count=2
+2016-10-27 16:08:41 [INFO] NettyEndpointFactory create share_channel server: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:08:41 [INFO] NettyServer ServerChannel start Open: url=motan://192.168.0.41:8021/?group=room-server-rpc
+2016-10-27 16:08:41 [INFO] NettyServer ServerChannel finish Open: url=motan://192.168.0.41:8021/?group=room-server-rpc
+2016-10-27 16:08:41 [INFO] DefaultRpcExporter node init Success: [DefaultRpcExporter] url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:08:41 [INFO] DefaultRpcProtocol export Success: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:08:42 [INFO] CommandFailbackRegistry init. url: zookeeper://127.0.0.1:2181/com.weibo.api.motan.registry.RegistryService?group=default_rpc
+2016-10-27 16:08:42 [INFO] [ZookeeperRegistry] Url (motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc) will register to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:08:42 [INFO] add method sign:getb93e9a3e658b1, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=getbyid, paramtersDesc=int, version=1.0]
+2016-10-27 16:08:42 [INFO] add method sign:selee750ce0d0aa8, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=selectBypage, paramtersDesc=com.student.room.service.table.model.UserInfo,int,int, version=1.0]
+2016-10-27 16:08:42 [INFO] RequestRouter addProvider: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc all_public_method_count=2
+2016-10-27 16:08:42 [INFO] NettyEndpointFactory create share_channel server: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:08:42 [INFO] NettyServer ServerChannel start Open: url=motan://192.168.0.41:8022/?group=room-server-rpc
+2016-10-27 16:08:42 [INFO] NettyServer ServerChannel finish Open: url=motan://192.168.0.41:8022/?group=room-server-rpc
+2016-10-27 16:08:42 [INFO] DefaultRpcExporter node init Success: [DefaultRpcExporter] url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:08:42 [INFO] DefaultRpcProtocol export Success: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:08:42 [INFO] [ZookeeperRegistry] Url (motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc) will register to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:08:42 [INFO] [ZookeeperRegistry] Url (null) will set to available to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:08:42 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62049 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:08:42 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62054 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:08:42 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62061 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:08:42 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62066 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:12:45 [INFO] AllSpiInitialization init.
+2016-10-27 16:12:45 [INFO] AllSpiInitialization init finish.
+2016-10-27 16:19:01 [INFO] NettyChannelHandler channelDisconnected: remote=admin-PC/192.168.0.41:62054 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:19:01 [INFO] NettyChannelHandler channelDisconnected: remote=/192.168.0.41:62049 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:19:01 [INFO] NettyChannelHandler channelDisconnected: remote=admin-PC/192.168.0.41:62066 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:19:01 [INFO] NettyChannelHandler channelDisconnected: remote=/192.168.0.41:62061 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:19:24 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62147 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:19:24 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62154 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:19:24 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62159 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:19:24 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62164 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:20:50 [INFO] AllSpiInitialization init.
+2016-10-27 16:20:50 [INFO] AllSpiInitialization init finish.
+2016-10-27 16:20:52 [INFO] init compress codec
+2016-10-27 16:20:52 [INFO] add method sign:getb93e9a3e658b1, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=getbyid, paramtersDesc=int, version=1.0]
+2016-10-27 16:20:52 [INFO] add method sign:selee750ce0d0aa8, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=selectBypage, paramtersDesc=com.student.room.service.table.model.UserInfo,int,int, version=1.0]
+2016-10-27 16:20:52 [INFO] RequestRouter addProvider: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc all_public_method_count=2
+2016-10-27 16:20:52 [INFO] NettyEndpointFactory create share_channel server: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:20:52 [INFO] NettyServer ServerChannel start Open: url=motan://192.168.0.41:8021/?group=room-server-rpc
+2016-10-27 16:20:52 [INFO] NettyServer ServerChannel finish Open: url=motan://192.168.0.41:8021/?group=room-server-rpc
+2016-10-27 16:20:52 [INFO] DefaultRpcExporter node init Success: [DefaultRpcExporter] url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:20:52 [INFO] DefaultRpcProtocol export Success: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:20:52 [INFO] CommandFailbackRegistry init. url: zookeeper://127.0.0.1:2181/com.weibo.api.motan.registry.RegistryService?group=default_rpc
+2016-10-27 16:20:52 [INFO] [ZookeeperRegistry] Url (motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc) will register to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:20:52 [INFO] add method sign:getb93e9a3e658b1, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=getbyid, paramtersDesc=int, version=1.0]
+2016-10-27 16:20:52 [INFO] add method sign:selee750ce0d0aa8, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=selectBypage, paramtersDesc=com.student.room.service.table.model.UserInfo,int,int, version=1.0]
+2016-10-27 16:20:52 [INFO] RequestRouter addProvider: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc all_public_method_count=2
+2016-10-27 16:20:52 [INFO] NettyEndpointFactory create share_channel server: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:20:52 [INFO] NettyServer ServerChannel start Open: url=motan://192.168.0.41:8022/?group=room-server-rpc
+2016-10-27 16:20:52 [INFO] NettyServer ServerChannel finish Open: url=motan://192.168.0.41:8022/?group=room-server-rpc
+2016-10-27 16:20:52 [INFO] DefaultRpcExporter node init Success: [DefaultRpcExporter] url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:20:52 [INFO] DefaultRpcProtocol export Success: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:20:52 [INFO] [ZookeeperRegistry] Url (motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc) will register to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:20:52 [INFO] [ZookeeperRegistry] Url (null) will set to available to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:20:52 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62189 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:20:52 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62194 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:20:52 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62201 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:20:52 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62206 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:21:57 [INFO] AllSpiInitialization init.
+2016-10-27 16:21:57 [INFO] AllSpiInitialization init finish.
+2016-10-27 16:21:58 [INFO] init compress codec
+2016-10-27 16:21:58 [INFO] add method sign:getb93e9a3e658b1, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=getbyid, paramtersDesc=int, version=1.0]
+2016-10-27 16:21:58 [INFO] add method sign:selee750ce0d0aa8, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=selectBypage, paramtersDesc=com.student.room.service.table.model.UserInfo,int,int, version=1.0]
+2016-10-27 16:21:58 [INFO] RequestRouter addProvider: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc all_public_method_count=2
+2016-10-27 16:21:58 [INFO] NettyEndpointFactory create share_channel server: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:21:58 [INFO] NettyServer ServerChannel start Open: url=motan://192.168.0.41:8021/?group=room-server-rpc
+2016-10-27 16:21:58 [INFO] NettyServer ServerChannel finish Open: url=motan://192.168.0.41:8021/?group=room-server-rpc
+2016-10-27 16:21:58 [INFO] DefaultRpcExporter node init Success: [DefaultRpcExporter] url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:21:58 [INFO] DefaultRpcProtocol export Success: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:21:59 [INFO] CommandFailbackRegistry init. url: zookeeper://127.0.0.1:2181/com.weibo.api.motan.registry.RegistryService?group=default_rpc
+2016-10-27 16:21:59 [INFO] [ZookeeperRegistry] Url (motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc) will register to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:21:59 [INFO] add method sign:getb93e9a3e658b1, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=getbyid, paramtersDesc=int, version=1.0]
+2016-10-27 16:21:59 [INFO] add method sign:selee750ce0d0aa8, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=selectBypage, paramtersDesc=com.student.room.service.table.model.UserInfo,int,int, version=1.0]
+2016-10-27 16:21:59 [INFO] RequestRouter addProvider: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc all_public_method_count=2
+2016-10-27 16:21:59 [INFO] NettyEndpointFactory create share_channel server: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:21:59 [INFO] NettyServer ServerChannel start Open: url=motan://192.168.0.41:8022/?group=room-server-rpc
+2016-10-27 16:21:59 [INFO] NettyServer ServerChannel finish Open: url=motan://192.168.0.41:8022/?group=room-server-rpc
+2016-10-27 16:21:59 [INFO] DefaultRpcExporter node init Success: [DefaultRpcExporter] url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:21:59 [INFO] DefaultRpcProtocol export Success: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:21:59 [INFO] [ZookeeperRegistry] Url (motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc) will register to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:21:59 [INFO] [ZookeeperRegistry] Url (null) will set to available to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:21:59 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62225 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:21:59 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62230 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:21:59 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62237 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:21:59 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62242 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:32:19 [INFO] AllSpiInitialization init.
+2016-10-27 16:32:19 [INFO] AllSpiInitialization init finish.
+2016-10-27 16:32:21 [INFO] init compress codec
+2016-10-27 16:32:21 [INFO] add method sign:getb93e9a3e658b1, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=getbyid, paramtersDesc=int, version=1.0]
+2016-10-27 16:32:21 [INFO] add method sign:selee750ce0d0aa8, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=selectBypage, paramtersDesc=com.student.room.service.table.model.UserInfo,int,int, version=1.0]
+2016-10-27 16:32:21 [INFO] RequestRouter addProvider: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc all_public_method_count=2
+2016-10-27 16:32:21 [INFO] NettyEndpointFactory create share_channel server: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:32:21 [INFO] NettyServer ServerChannel start Open: url=motan://192.168.0.41:8021/?group=room-server-rpc
+2016-10-27 16:32:21 [INFO] NettyServer ServerChannel finish Open: url=motan://192.168.0.41:8021/?group=room-server-rpc
+2016-10-27 16:32:21 [INFO] DefaultRpcExporter node init Success: [DefaultRpcExporter] url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:32:21 [INFO] DefaultRpcProtocol export Success: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:32:22 [INFO] CommandFailbackRegistry init. url: zookeeper://127.0.0.1:2181/com.weibo.api.motan.registry.RegistryService?group=default_rpc
+2016-10-27 16:32:22 [INFO] [ZookeeperRegistry] Url (motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc) will register to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:32:22 [INFO] add method sign:getb93e9a3e658b1, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=getbyid, paramtersDesc=int, version=1.0]
+2016-10-27 16:32:22 [INFO] add method sign:selee750ce0d0aa8, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=selectBypage, paramtersDesc=com.student.room.service.table.model.UserInfo,int,int, version=1.0]
+2016-10-27 16:32:22 [INFO] RequestRouter addProvider: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc all_public_method_count=2
+2016-10-27 16:32:22 [INFO] NettyEndpointFactory create share_channel server: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:32:22 [INFO] NettyServer ServerChannel start Open: url=motan://192.168.0.41:8022/?group=room-server-rpc
+2016-10-27 16:32:22 [INFO] NettyServer ServerChannel finish Open: url=motan://192.168.0.41:8022/?group=room-server-rpc
+2016-10-27 16:32:22 [INFO] DefaultRpcExporter node init Success: [DefaultRpcExporter] url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:32:22 [INFO] DefaultRpcProtocol export Success: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:32:22 [INFO] [ZookeeperRegistry] Url (motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc) will register to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:32:22 [INFO] [ZookeeperRegistry] Url (null) will set to available to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:32:22 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62302 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:32:22 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62309 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:32:22 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62314 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:32:22 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62319 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:34:35 [INFO] AllSpiInitialization init.
+2016-10-27 16:34:35 [INFO] AllSpiInitialization init finish.
+2016-10-27 16:34:36 [INFO] init compress codec
+2016-10-27 16:34:36 [INFO] add method sign:getb93e9a3e658b1, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=getbyid, paramtersDesc=int, version=1.0]
+2016-10-27 16:34:36 [INFO] add method sign:selee750ce0d0aa8, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=selectBypage, paramtersDesc=com.student.room.service.table.model.UserInfo,int,int, version=1.0]
+2016-10-27 16:34:36 [INFO] RequestRouter addProvider: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc all_public_method_count=2
+2016-10-27 16:34:36 [INFO] NettyEndpointFactory create share_channel server: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:34:36 [INFO] NettyServer ServerChannel start Open: url=motan://192.168.0.41:8021/?group=room-server-rpc
+2016-10-27 16:34:36 [INFO] NettyServer ServerChannel finish Open: url=motan://192.168.0.41:8021/?group=room-server-rpc
+2016-10-27 16:34:36 [INFO] DefaultRpcExporter node init Success: [DefaultRpcExporter] url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:34:36 [INFO] DefaultRpcProtocol export Success: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:34:36 [INFO] CommandFailbackRegistry init. url: zookeeper://127.0.0.1:2181/com.weibo.api.motan.registry.RegistryService?group=default_rpc
+2016-10-27 16:34:36 [INFO] [ZookeeperRegistry] Url (motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc) will register to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:34:36 [INFO] add method sign:getb93e9a3e658b1, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=getbyid, paramtersDesc=int, version=1.0]
+2016-10-27 16:34:36 [INFO] add method sign:selee750ce0d0aa8, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=selectBypage, paramtersDesc=com.student.room.service.table.model.UserInfo,int,int, version=1.0]
+2016-10-27 16:34:36 [INFO] RequestRouter addProvider: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc all_public_method_count=2
+2016-10-27 16:34:36 [INFO] NettyEndpointFactory create share_channel server: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:34:36 [INFO] NettyServer ServerChannel start Open: url=motan://192.168.0.41:8022/?group=room-server-rpc
+2016-10-27 16:34:36 [INFO] NettyServer ServerChannel finish Open: url=motan://192.168.0.41:8022/?group=room-server-rpc
+2016-10-27 16:34:36 [INFO] DefaultRpcExporter node init Success: [DefaultRpcExporter] url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:34:36 [INFO] DefaultRpcProtocol export Success: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:34:36 [INFO] [ZookeeperRegistry] Url (motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc) will register to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:34:36 [INFO] [ZookeeperRegistry] Url (null) will set to available to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:34:36 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62345 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:34:36 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62350 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:34:36 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62357 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:34:36 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62362 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:35:27 [INFO] AllSpiInitialization init.
+2016-10-27 16:35:27 [INFO] AllSpiInitialization init finish.
+2016-10-27 16:35:28 [INFO] init compress codec
+2016-10-27 16:35:28 [INFO] add method sign:getb93e9a3e658b1, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=getbyid, paramtersDesc=int, version=1.0]
+2016-10-27 16:35:28 [INFO] add method sign:selee750ce0d0aa8, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=selectBypage, paramtersDesc=com.student.room.service.table.model.UserInfo,int,int, version=1.0]
+2016-10-27 16:35:28 [INFO] RequestRouter addProvider: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc all_public_method_count=2
+2016-10-27 16:35:28 [INFO] NettyEndpointFactory create share_channel server: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:35:28 [INFO] NettyServer ServerChannel start Open: url=motan://192.168.0.41:8021/?group=room-server-rpc
+2016-10-27 16:35:28 [INFO] NettyServer ServerChannel finish Open: url=motan://192.168.0.41:8021/?group=room-server-rpc
+2016-10-27 16:35:28 [INFO] DefaultRpcExporter node init Success: [DefaultRpcExporter] url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:35:28 [INFO] DefaultRpcProtocol export Success: url=motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:35:28 [INFO] CommandFailbackRegistry init. url: zookeeper://127.0.0.1:2181/com.weibo.api.motan.registry.RegistryService?group=default_rpc
+2016-10-27 16:35:28 [INFO] [ZookeeperRegistry] Url (motan://192.168.0.41:8021/com.student.room.service.api.IUser?group=room-server-rpc) will register to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:35:28 [INFO] add method sign:getb93e9a3e658b1, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=getbyid, paramtersDesc=int, version=1.0]
+2016-10-27 16:35:28 [INFO] add method sign:selee750ce0d0aa8, methodinfo:MethodInfo [group=room-server-rpc, interfaceName=com.student.room.service.api.IUser, methodName=selectBypage, paramtersDesc=com.student.room.service.table.model.UserInfo,int,int, version=1.0]
+2016-10-27 16:35:28 [INFO] RequestRouter addProvider: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc all_public_method_count=2
+2016-10-27 16:35:28 [INFO] NettyEndpointFactory create share_channel server: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:35:28 [INFO] NettyServer ServerChannel start Open: url=motan://192.168.0.41:8022/?group=room-server-rpc
+2016-10-27 16:35:28 [INFO] NettyServer ServerChannel finish Open: url=motan://192.168.0.41:8022/?group=room-server-rpc
+2016-10-27 16:35:28 [INFO] DefaultRpcExporter node init Success: [DefaultRpcExporter] url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:35:28 [INFO] DefaultRpcProtocol export Success: url=motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc
+2016-10-27 16:35:28 [INFO] [ZookeeperRegistry] Url (motan://192.168.0.41:8022/com.student.room.service.api.IUser?group=room-server-rpc) will register to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:35:28 [INFO] [ZookeeperRegistry] Url (null) will set to available to Registry [zookeeper://127.0.0.1:2181/default_rpc/com.weibo.api.motan.registry.RegistryService/1.0/service]
+2016-10-27 16:35:28 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62382 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:35:28 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62387 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-27 16:35:29 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62394 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-27 16:35:29 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:62399 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent

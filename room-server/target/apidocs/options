@@ -1,0 +1,25 @@
+-classpath
+'E:/maven/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar;E:/maven/repository/com/ecwid/consul/consul-api/1.1.4/consul-api-1.1.4.jar;E:/maven/repository/com/google/code/gson/gson/2.3/gson-2.3.jar;E:/maven/repository/com/alibaba/fastjson/1.1.30/fastjson-1.1.30.jar;E:/maven/repository/org/apache/zookeeper/zookeeper/3.4.8/zookeeper-3.4.8.jar;E:/maven/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar;E:/maven/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar;E:/maven/repository/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar;E:/maven/repository/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar;E:/maven/repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar;C:/Program Files/Java/jdk1.7.0_67/jre/../lib/tools.jar;E:/maven/repository/com/alibaba/druid/1.0.26/druid-1.0.26.jar;E:/maven/repository/tk/mybatis/mapper/3.3.9/mapper-3.3.9.jar;E:/maven/repository/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.jar;E:/maven/repository/com/weibo/motan-registry-consul/0.2.1/motan-registry-consul-0.2.1.jar;E:/maven/repository/com/caucho/hessian/4.0.38/hessian-4.0.38.jar;E:/maven/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar;E:/maven/repository/com/google/guava/guava/18.0/guava-18.0.jar;E:/maven/repository/com/weibo/motan-registry-zookeeper/0.2.1/motan-registry-zookeeper-0.2.1.jar;E:/maven/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar;E:/maven/repository/org/springframework/spring-expression/4.2.5.RELEASE/spring-expression-4.2.5.RELEASE.jar;E:/maven/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar;E:/maven/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar;E:/maven/repository/commons-pool/commons-pool/1.6/commons-pool-1.6.jar;E:/maven/repository/com/weibo/motan-springsupport/0.2.1/motan-springsupport-0.2.1.jar;E:/maven/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar;E:/maven/repository/org/mybatis/mybatis/3.4.0/mybatis-3.4.0.jar;E:/maven/repository/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar;E:/maven/repository/com/weibo/motan-transport-netty/0.2.1/motan-transport-netty-0.2.1.jar;E:/maven/repository/jline/jline/0.9.94/jline-0.9.94.jar;E:/maven/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar;E:/maven/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar;E:/maven/repository/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.jar;E:/maven/repository/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.jar;E:/maven/repository/com/101tec/zkclient/0.3/zkclient-0.3.jar;E:/maven/repository/org/mybatis/generator/mybatis-generator-core/1.3.4/mybatis-generator-core-1.3.4.jar;E:/maven/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar;C:/Program Files/Java/jdk1.7.0_67/jre/../lib/jconsole.jar;E:/maven/repository/com/codahale/metrics/metrics-core/3.0.1/metrics-core-3.0.1.jar;E:/maven/repository/com/weibo/motan-core/0.2.1/motan-core-0.2.1.jar;E:/maven/repository/org/slf4j/slf4j-log4j12/1.5.8/slf4j-log4j12-1.5.8.jar;E:/maven/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar;E:/maven/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'E:/javaproject/student/room-server/src/main/java'
+-Xdoclint:none
+-author
+-bottom
+'Copyright &#169; 2016. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'E:/javaproject/student/room-server/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'room-server 1.0.0 API'
+-linkoffline
+'http://docs.oracle.com/javase/7/docs/api' 'E:/javaproject/student/room-server/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'room-server 1.0.0 API'

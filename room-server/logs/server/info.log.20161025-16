@@ -1,0 +1,6 @@
+2016-10-25 16:03:16 [INFO] NettyChannelHandler channelDisconnected: remote=/192.168.0.41:54058 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-25 16:03:17 [INFO] NettyChannelHandler channelDisconnected: remote=/192.168.0.41:54065 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-25 16:03:17 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:56430 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-25 16:03:17 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:56435 local=/192.168.0.41:8021 event=UpstreamChannelStateEvent
+2016-10-25 16:13:17 [INFO] NettyChannelHandler channelDisconnected: remote=/192.168.0.41:54111 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent
+2016-10-25 16:13:17 [INFO] NettyChannelHandler channelConnected: remote=/192.168.0.41:56768 local=/192.168.0.41:8022 event=UpstreamChannelStateEvent

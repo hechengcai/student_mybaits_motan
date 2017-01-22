@@ -1,0 +1,76 @@
+09:05:45 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:05:45 [motan-memoryStatistic] 19.37MB of 883.50 MB (2.2%) used 
+09:05:45 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:05:45 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:06:15 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:06:15 [motan-memoryStatistic] 29.05MB of 883.50 MB (3.3%) used 
+09:06:15 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:06:15 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:06:45 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:06:45 [motan-memoryStatistic] 29.05MB of 883.50 MB (3.3%) used 
+09:06:45 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:06:45 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:07:15 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:07:15 [motan-memoryStatistic] 29.05MB of 883.50 MB (3.3%) used 
+09:07:15 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:07:15 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:07:45 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:07:45 [motan-memoryStatistic] 29.06MB of 883.50 MB (3.3%) used 
+09:07:45 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:07:45 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:08:15 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:08:15 [motan-memoryStatistic] 29.06MB of 883.50 MB (3.3%) used 
+09:08:15 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:08:15 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:08:45 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:08:45 [motan-memoryStatistic] 29.07MB of 883.50 MB (3.3%) used 
+09:08:45 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:08:45 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:09:15 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:09:15 [motan-memoryStatistic] 29.07MB of 883.50 MB (3.3%) used 
+09:09:15 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:09:15 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:09:45 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:09:45 [motan-memoryStatistic] 29.07MB of 883.50 MB (3.3%) used 
+09:09:45 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:09:45 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:10:15 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:10:15 [motan-memoryStatistic] 29.08MB of 883.50 MB (3.3%) used 
+09:10:15 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:10:15 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:10:45 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:10:45 [motan-memoryStatistic] 29.08MB of 883.50 MB (3.3%) used 
+09:10:45 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:10:45 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:11:15 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:11:15 [motan-memoryStatistic] 29.09MB of 883.50 MB (3.3%) used 
+09:11:15 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:11:15 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:11:45 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:11:45 [motan-memoryStatistic] 29.09MB of 883.50 MB (3.3%) used 
+09:11:45 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:11:45 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:12:15 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:12:15 [motan-memoryStatistic] 29.10MB of 883.50 MB (3.3%) used 
+09:12:15 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:12:15 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:12:45 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:12:45 [motan-memoryStatistic] 29.10MB of 883.50 MB (3.3%) used 
+09:12:45 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:12:45 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:13:15 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:13:15 [motan-memoryStatistic] 29.10MB of 883.50 MB (3.3%) used 
+09:13:15 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:13:15 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:13:45 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:13:45 [motan-memoryStatistic] 29.11MB of 883.50 MB (3.3%) used 
+09:13:45 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:13:45 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:14:15 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:14:15 [motan-memoryStatistic] 29.11MB of 883.50 MB (3.3%) used 
+09:14:15 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:14:15 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 10 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:14:45 [motan-totalAccessStatistic] app: motan module: motan total_count: 0 slow_count: 0 biz_excp: 0 other_excp: 0 avg_time: 0.00ms biz_time: 0.00ms avg_tps: 0
+09:14:45 [motan-memoryStatistic] 29.66MB of 883.50 MB (3.4%) used 
+09:14:45 [motan-statisticCallback] identity: motan://192.168.0.41:8021/room-server-rpc//1.0/service connectionCount: 0 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800
+09:14:45 [motan-statisticCallback] identity: motan://192.168.0.41:8022/room-server-rpc//1.0/service connectionCount: 0 taskCount: 0 queueCount: 0 maxThreadCount: 800 maxTaskCount: 800

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:motan="http://api.weibo.com/schema/motan"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+		http://api.weibo.com/schema/motan 
+        http://api.weibo.com/schema/motan.xsd">
+
+ 	<import resource="classpath:motan_client.xml"/>	
+	<!-- 属性占位符 -->
+	<context:property-placeholder ignore-resource-not-found="true" value-separator="||" 
+		location="classpath:web.properties"
+	/>
+
+	
+	<!-- 启用SpringMVC自动配置 -->
+	<mvc:annotation-driven />	
+	
+	<!-- 标注所部属的servlet容器的默认servlet名称：tomcat、jetty、jboss 是 default -->
+	<mvc:default-servlet-handler default-servlet-name="default"/>	
+		
+	<!-- 上传组件：采用 Servlet3 的标准实现 -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver"/>	
+		                   
+	<!-- Velocity 视图解释器 -->
+	<bean id="velocityViewResolver" class="com.student.room.web.common.velocity.VelocityViewResolver">
+		<property name="cache" value="false"/>
+		<property name="prefix" value="/WEB-INF/pages/" />
+		<property name="enableLayout" value="true"/>
+		<property name="defaultLayout" value="/WEB-INF/layouts/default.html"/>
+		<property name="requestContextAttribute" value="rc"/>
+		<!-- 视图所使用的全局常量 -->
+		<property name="attributes">
+			<props>
+				<prop key="RES_BASE_URL">http://img.cg.cn/cgwy</prop>
+				<prop key="RES_UPLPAD_URL">http://img.cg.cn/upload/</prop>
+			</props>			
+		</property>
+	</bean>
+
+</beans>
+
